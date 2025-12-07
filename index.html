@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishnuputhran R | Cloud Computing Portfolio</title>
+    <!-- IMPORTANT: This line links to your CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-text">VISHNUPUTHRAN R</div>
+        <div class="loader-bar"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <span class="logo-text">VISHNU</span>
+                <span class="logo-dot">.</span>
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a>
+                <a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a>
+                <a href="#skills" class="nav-link"><i class="fas fa-code"></i> Skills</a>
+                <a href="#projects" class="nav-link"><i class="fas fa-project-diagram"></i> Projects</a>
+                <a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Education</a>
+                <a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+            
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Home/Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h4 class="greeting">Hello, I'm</h4>
+                    <h1 class="name">VISHNUPUTHRAN R</h1>
+                    <h2 class="title">
+                        <span class="typewriter-text"></span>
+                        <span class="cursor">|</span>
+                    </h2>
+                    <p class="description">Computer Science student at <strong>Sathyabama University (2024-2028)</strong>. Specializing in Cloud Computing, AI Chatbots, and creating innovative web solutions.</p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-eye"></i> View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-paper-plane"></i> Contact Me
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="image-container">
+                        <!-- Using Unsplash image since your local image might not exist -->
+                        <img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Vishnuputhran R" class="profile-img">
+                        <div class="image-frame"></div>
+                        <div class="floating-elements">
+                            <span class="float-element cloud"><i class="fas fa-cloud"></i></span>
+                            <span class="float-element ai"><i class="fas fa-robot"></i></span>
+                            <span class="float-element db"><i class="fas fa-database"></i></span>
+                            <span class="float-element code"><i class="fas fa-code"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#about" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About <span class="highlight">Me</span></h2>
+                <p class="section-subtitle">Cloud Computing Student & Developer</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <!-- Using Unsplash image -->
+                        <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="About Vishnuputhran">
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <h3>Building Cloud Solutions with Innovation</h3>
+                    <p>I'm a passionate Computer Science student at <strong>Sathyabama Institute of Science and Technology (2024-2028 Batch)</strong> specializing in Cloud Computing, AI Integration, and Full-Stack Development.</p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-university"></i>
+                            <div>
+                                <strong>University</strong>
+                                <p>Sathyabama University</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <strong>Degree</strong>
+                                <p>B.E. Computer Science</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <div>
+                                <strong>Batch</strong>
+                                <p>2024 - 2028</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <p>vishnuputhranr7@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Passionate about creating intelligent cloud solutions using DialogFlow, Vercel, Render, and Supabase to solve real-world problems."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+                <p class="section-subtitle">Technologies I Master</p>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & AI Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="85">
+                            <span>DialogFlow</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <span>Vercel</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="75">
+                            <span>Render</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="70">
+                            <span>Supabase</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="90">
+                            <span>HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <span>CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="75">
+                            <span>Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+                <p class="section-subtitle">Real Cloud Computing Projects</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1: DialogFlow Chatbot -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="AI Chatbot using DialogFlow">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">AI & Cloud</span>
+                        <h3 class="project-title">DialogFlow Chatbot</h3>
+                        <p class="project-description">Intelligent AI-powered chatbot using Google's DialogFlow with natural language processing and GitHub integration for training.</p>
+                        <div class="project-tech">
+                            <span>DialogFlow</span>
+                            <span>GitHub</span>
+                            <span>Node.js</span>
+                            <span>AI/ML</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2: Data Redundancy System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Data Redundancy System">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Cloud Data Management</span>
+                        <h3 class="project-title">Data Redundancy System</h3>
+                        <p class="project-description">Cloud-based system for detecting and eliminating duplicate records using Vercel and Supabase with intelligent algorithms.</p>
+                        <div class="project-tech">
+                            <span>Vercel</span>
+                            <span>Supabase</span>
+                            <span>Python</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3: CloudPro Bus Pass System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="CloudPro Bus Pass System">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Cloud Application</span>
+                        <h3 class="project-title">CloudPro Bus Pass System</h3>
+                        <p class="project-description">Full-stack cloud-based bus pass management system with real-time validation, deployed on Render with Supabase backend.</p>
+                        <div class="project-tech">
+                            <span>Render</span>
+                            <span>Supabase</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My <span class="highlight">Education</span></h2>
+                <p class="section-subtitle">Academic Journey</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - 2028</div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Engineering in Computer Science</h3>
+                        <h4>Sathyabama Institute of Science and Technology, Chennai</h4>
+                        <p><i class="fas fa-star"></i> Currently Pursuing (2024-2028 Batch)</p>
+                        <p><i class="fas fa-book"></i> Relevant Courses: Cloud Computing, AI/ML, Web Technologies, Database Management</p>
+                        <p><i class="fas fa-bullseye"></i> Focus Areas: Cloud Architecture, AI Integration, Full-Stack Development</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - 2023</div>
+                    <div class="timeline-content">
+                        <h3>Higher Secondary Education</h3>
+                        <h4>CBSE Board</h4>
+                        <p><i class="fas fa-percentage"></i> Percentage: 70%</p>
+                        <p><i class="fas fa-subject"></i> Stream: Computer Science with Mathematics</p>
+                        <p><i class="fas fa-code"></i> Focus: Programming Fundamentals, Web Development Basics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+                <p class="section-subtitle">Let's collaborate on web development projects</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-university"></i>
+                        <div>
+                            <h3>University</h3>
+                            <p>Sathyabama University</p>
+                            <p class="info-small">2024-2028 Batch | Computer Science</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>vishnuputhranr7@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Chennai, Tamil Nadu, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/Vishnuputhran01?" class="social-link" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/vishnuputhran-r-15b0a51bb/" class="social-link" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link" title="DialogFlow">
+                            <i class="fas fa-robot"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Cloud Projects">
+                            <i class="fas fa-cloud"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message (Mention cloud project interest)" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>VISHNUPUTHRAN R</h2>
+                    <p>Cloud Computing Student | Sathyabama University</p>
+                    <p class="footer-university">Batch: 2024-2028 | Specializing in DialogFlow, Vercel, Render, Supabase</p>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#education">Education</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                
+                <div class="footer-cta">
+                    <a href="assets/resume.pdf" class="btn btn-secondary" download>
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Vishnuputhran R. All rights reserved. | CodSoft Internship Project | Sathyabama University (2024-2028)</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- IMPORTANT: This line links to your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
